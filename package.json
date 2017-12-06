@@ -1,0 +1,22 @@
+{
+  "name": "haine",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aeonach/haine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aeonach/haine/issues"
+  },
+  "homepage": "https://github.com/aeonach/haine#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
