@@ -1,0 +1,71 @@
+<div class="{{page.short-name}}"> <!--same as page name -->
+
+
+        <!-- Intro Section -->
+        <section class="inner-intro dark-bg bg-image overlay-dark parallax parallax-background1" data-background-img="{{page.header-image}}">
+            <div class="container">
+                <div class="row title">
+                    <h2 class="h2">{{page.project-name}}</h2>
+                    <h3 class="color">{{page.project-place}}</h3>
+                </div>
+            </div>
+        </section>
+        <div class="clearfix"></div>
+        <!-- End Intro Section -->
+
+
+      <!-- About Section -->
+            <section id="about" class="section-padding text-center">
+                <div class="container mb-60">
+                    <div class="row text-center">
+                        <div class="col-md-6 wow fadeIn" data-wow-delay="0.4s" data-wow-duration="2s">
+                            <img src="{{ page.detail-image }}" style="max-width: 457px; width: 100%;" alt="{{ page.short-name }}" />
+                        </div>
+                        <div class="col-md-6 wow fadeIn" data-wow-delay="0.4s" data-wow-duration="2s">
+                            <div class="spacer-15"></div>
+                            <h2 class="page-title mb-25 text-light">{{page.project-name}}</h2>
+                            <h6 class="page-title-alt color mb-10">Contract Value: £{{page.value}}</h6>
+                            <h6 class="page-title-alt color mb-10">Year: {{page.year}}</h6>
+                           <div class="project-description"> 
+                            <p class="mb-35">{{page.project-details}}</p>
+                        	</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End About Section -->
+            
+            <hr /> 
+            
+              <!-- Work Detail Section -->
+        <section class="ptb ptb-sm-80">
+            <div class="container">
+               
+                <div class="row container-masonry nf-col-4">
+
+{% for image in page.images %}
+
+                    <div class="nf-item spacing">
+                        <div class="item-box">
+                            <a class="cbox-gallary1" href="{{ image.image_path }}" title="">
+                                <img alt="1" src="{{ image.image_path }}" class="item-container">
+                                
+                            </a>
+                        </div>
+                    </div>
+{% endfor %}
+
+
+                    
+                </div>
+
+            </div>
+
+        </section>
+        <!-- End Work Detail Section -->
+
+
+
+        <!-- End CONTENT ------------------------------------------------------------------------------>
+
+</div>
