@@ -217,7 +217,7 @@ function init() {
         position: new google.maps.LatLng(51.521209, -0.196418),
         map: map,
         title: 'Haine & Co.',
-        icon: 'assets/img/map-marker.png'
+        icon: '/assets/img/map-marker.png'
 
     });
 };
