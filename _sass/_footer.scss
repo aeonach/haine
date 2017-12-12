@@ -1,0 +1,84 @@
+/*==============================================================================================*/
+/* FOOTER         ||---------------------------- */
+/*==============================================================================================*/
+
+.footer {
+    background-color: $light-light-gray;
+    color: $dark-text-color;
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+    .footer hr {
+        border-color: #eee;
+    }
+
+    .footer .footer-info p {
+        color: $dark-text-color;
+    }
+
+.footer-logo {
+    max-width: 125px;
+    display: inline-block;
+    width: 100%;
+}
+
+.footer .social, .contact .social {
+    font-size: 20px;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+    .footer ul.social li, .contact ul.social li {
+        display: inline-block;
+        margin: 0 10px 0 0;
+    }
+
+.footer .link a {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.footer .link-small a {
+    font-weight: 600;
+    text-transform: none;
+}
+
+.footer .copyright {
+    text-align: center;
+}
+
+
+.newsletter {
+    position: relative;
+}
+
+    .newsletter .newsletter-input, .newsletter .newsletter-input:focus {
+        width: 100%;
+        border-top: 0px none;
+        border-left: 0px none;
+        border-right: 0px none;
+        padding-right: 40px !important;
+        background: rgba(255,255,255,0);
+    }
+
+    .newsletter .newsletter-btn {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        font-size: 18px;
+        background: rgba(255,255,255,0);
+    }
+
+@media (max-width: 767px) {
+    .footer {
+        text-align: center;
+    }
+}

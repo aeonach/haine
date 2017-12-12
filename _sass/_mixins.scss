@@ -1,0 +1,36 @@
+@import url("./plugin/flexslider.css");
+@import url("./plugin/owl.carousel.css");
+@import url("./plugin/mediaelementplayer.css");
+@import url("./plugin/colorbox.css");
+@import url("./plugin/jquery.fs.tipper.css");
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+
+
+
+
+
+
+$dark-text-color: #323232;
+$highlight-color: #e6ae49;
+$very-light-gray: #f1f1f1;
+$light-light-gray: #f7f7f7;
+$dark-dark-gray: #434343;
+$very-dark-gray:  #3e3e3e;
+$pure-white:	  #fff;
+
+@mixin transition($args...) {
+	-webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+

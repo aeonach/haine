@@ -1,0 +1,83 @@
+/* Team Box   ||-------------------*/
+.team-item {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.team-item-img {
+    position: relative;
+}
+
+    .team-item-img > img {
+        width: 100%;
+    }
+
+    .team-item-img .team-item-detail {
+        background: $pure-white;
+        text-align: center;
+        color: $dark-text-color;
+        display: -webkit-flex;
+        display: flex;
+        height: calc(100% - 20px);
+        width: calc(100% - 20px);
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        opacity: 0;
+        visibility: hidden;
+        overflow: hidden;
+        @include transition(all 0.5s ease-in-out 0s);
+    }
+
+.team-item:hover .team-item-detail {
+    opacity: 1;
+    visibility: visible;
+}
+
+.team-item-img .team-item-detail .team-item-detail-inner, .cent-mid-content {
+    margin: auto;
+    padding: 25px;
+}
+
+    .team-item-img .team-item-detail .team-item-detail-inner .social {
+        margin: 5px 0px 0px 0px;
+        padding: 0px;
+    }
+
+        .team-item-img .team-item-detail .team-item-detail-inner .social li {
+            list-style: none;
+            display: inline-block;
+            margin: 0px 5px;
+        }
+
+            .team-item-img .team-item-detail .team-item-detail-inner .social li a {
+                color: #333;
+                font-size: 16px;
+            }
+
+                .team-item-img .team-item-detail .team-item-detail-inner .social li a:hover {
+                    color: #c7a674;
+                }
+
+.team-item-info {
+    padding-top: 15px;
+    text-align: center;
+}
+
+    .team-item-info h5, .team-item-info h6 {
+        margin-bottom: 5px;
+    }
+
+    .team-item-info p {
+        margin-bottom: 0px;
+    }
+    dt { display:block; float:left; width:100px; text-align: left;}
+dt:after{content:':';}
+dd { display:block;}
+
+.contact-item {
+	text-align: center;
+	font-size: 18px;
+	font-weight: 400;
+    line-height: 30px;
+}

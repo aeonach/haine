@@ -2,7 +2,7 @@
 
 
         <!-- Intro Section -->
-        <section class="inner-intro dark-bg bg-image overlay-dark parallax parallax-background1" data-background-img="{{site.baseurl}}/{{page.header-image}}">
+        <section class="inner-intro dark-bg bg-image overlay-dark parallax parallax-background1" data-background-img="{{site.url}}{{site.baseurl}}/{{page.header-image}}">
             <div class="container">
                 <div class="row title">
                     <h2 class="h2">{{page.project-name}}</h2>
@@ -19,7 +19,7 @@
                 <div class="container mb-60">
                     <div class="row text-center">
                         <div class="col-md-6 wow fadeIn" data-wow-delay="0.4s" data-wow-duration="2s">
-                            <img src="{{site.baseurl}}/{{ page.detail-image }}" style="max-width: 457px; width: 100%;" alt="{{ page.short-name }}" />
+                            <img src="{{site.url}}{{site.baseurl}}/{{ page.detail-image }}" style="max-width: 457px; width: 100%;" alt="{{ page.short-name }}" />
                         </div>
                         <div class="col-md-6 wow fadeIn" data-wow-delay="0.4s" data-wow-duration="2s">
                             <div class="spacer-15"></div>
@@ -47,8 +47,8 @@
 
                     <div class="nf-item spacing">
                         <div class="item-box">
-                            <a class="cbox-gallary1" href="{{site.baseurl}}/{{ image.image_path }}" title="">
-                                <img alt="1" src="{{site.baseurl}}/{{ image.image_path }}" class="item-container">
+                            <a class="cbox-gallary1" href="{{site.url}}{{site.baseurl}}/{{ image.image_path }}" title="">
+                                <img alt="1" src="{{site.url}}{{site.baseurl}}/{{ image.image_path }}" class="item-container">
                                 
                             </a>
                         </div>
