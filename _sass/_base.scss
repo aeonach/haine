@@ -1079,8 +1079,11 @@ button {
         }
 
     .cover-box .cover-box-content {
-        padding: 30px;
+        padding: 20px;
         background: #f5f5f5;
+    }
+    .cover-box-content h5 {
+    display: inline;
     }
 .project-description {
 text-align: left;
